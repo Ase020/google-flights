@@ -17,6 +17,22 @@
 }
 
 @layer components {
+    .custom-btn {
+        @apply bg-primary rounded-full p-3 w-full flex flex-row justify-center;
+    }
+
+    .custom-header {
+        @apply w-full flex flex-row items-center justify-between mb-10;
+    }
+
+    .label {
+        @apply text-base text-start w-full font-opensans-medium text-gray-500 pl-2;
+    }
+
+    .input {
+        @apply rounded-lg p-3 w-full text-base font-opensans-semibold text-dark-100 border-b leading-5;
+    }
+
     .h1-bold {
         @apply text-3xl font-opensans-bold;
     }
